@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RunnerSuite" duration-ms="16487" started-at="2018-12-08T14:56:42Z" finished-at="2018-12-08T14:56:59Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="16487" started-at="2018-12-08T14:56:42Z" finished-at="2018-12-08T14:56:59Z">
+      <class name="automatedtests.CheckingDashboard">
+        <test-method status="PASS" signature="logintosite()[pri:0, instance:automatedtests.CheckingDashboard@5ff2b8ca]" name="logintosite" duration-ms="191" started-at="2018-12-08T16:56:59Z" finished-at="2018-12-08T16:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintosite -->
+      </class> <!-- automatedtests.CheckingDashboard -->
+      <class name="automatedtests.InvalidLogin">
+        <test-method status="PASS" signature="logintosite()[pri:0, instance:automatedtests.InvalidLogin@618ad2aa]" name="logintosite" duration-ms="10195" started-at="2018-12-08T16:56:42Z" finished-at="2018-12-08T16:56:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintosite -->
+      </class> <!-- automatedtests.InvalidLogin -->
+      <class name="automatedtests.ValidLogin">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:automatedtests.ValidLogin@4da9f723]" name="setUp" is-config="true" duration-ms="5561" started-at="2018-12-08T16:56:37Z" finished-at="2018-12-08T16:56:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logintosite()[pri:0, instance:automatedtests.ValidLogin@4da9f723]" name="logintosite" duration-ms="6063" started-at="2018-12-08T16:56:53Z" finished-at="2018-12-08T16:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintosite -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:automatedtests.ValidLogin@4da9f723]" name="afterClass" is-config="true" duration-ms="1995" started-at="2018-12-08T16:56:59Z" finished-at="2018-12-08T16:57:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- automatedtests.ValidLogin -->
+    </test> <!-- Test -->
+  </suite> <!-- RunnerSuite -->
+</testng-results>
